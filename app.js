@@ -3,6 +3,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const reviewRoutes = require('./src/routes/reviewRoutes');
+
+require('dotenv').config();
+const config = require('./config/config.json')[process.env.NODE_ENV || 'development'];
+
 require('./swagger');
 
 const app = express();

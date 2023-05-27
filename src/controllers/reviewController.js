@@ -1,4 +1,3 @@
-// controllers/reviewController.js
 const Review = require('../models/Review');
 const { Op } = require('sequelize');
 
