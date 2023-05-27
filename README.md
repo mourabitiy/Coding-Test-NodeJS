@@ -26,12 +26,8 @@ Before running the application, make sure you have the following installed:
     ```
     
 ## Database Setup
-1. Create a MySQL database for the app reviews. You can use a GUI tool like phpMyAdmin or run the following command in your MySQL terminal:
-    ```
-    CREATE DATABASE app_reviews;
-    ```
-2. Configure the database 
-    Update the database configuration in both src/config/sequelize.js or config/config.json files with your MySQL credentials.
+1. Configure the database 
+    Update the database configuration in .env file with your MySQL credentials.
 
 3. Run the migration to create the database tables:
 
