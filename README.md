@@ -45,13 +45,12 @@ Before running the application, make sure you have the following installed:
     Open your browser and visit http://localhost:3001 to access the API.
 
 
-2. API Endpoints:
+## API Endpoints
 
-    GET /reviews: Get all reviews.
-    GET /reviews/filter?rating=3: Filter reviews by rating (replace 3 with the desired rating).
-    GET /reviews/search?query=example: Search reviews by review heading or review text (replace example with the search query).
+- `GET /reviews`: Get all reviews.
+- `GET /reviews/filter?rating=3`: Filter reviews by rating (replace `3` with the desired rating).
+- `GET /reviews/search?query=example`: Search reviews by review heading or review text (replace `example` with the search query).
     
 ## API Documentation
 
-    The API is documented using Swagger UI. To view the API documentation, visit http://localhost:3000/api-docs in your browser.
-
+The API is documented using Swagger UI. To view the API documentation, visit `http://localhost:3000/api-docs` in your browser.
